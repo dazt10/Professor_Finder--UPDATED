@@ -36,7 +36,7 @@
           <div class="nav-bar">
             <ul>
               <div class="nav-btn-header">
-                <img src="/Professor_Finder/assets/images/icons/home-icon.svg" alt="" />
+                <img src="/Professor_Finder/assets/images/icons/home-icon.svg" alt="Home Icon" />
                 <li><a href="../main/dashboard/dashboard.html">Home</a></li>
               </div>
               <div class="nav-btn-header">
@@ -91,7 +91,7 @@
                 <!-- Name row -->
                 <div class="row" id="nameRow">
                     <div>
-                        <p id="label">Name</p>
+                        <p id="nameText">Name</p>
                         <p id="value">first name surname</p>
                     </div>
                     <div class="arrow-btn">
@@ -106,14 +106,14 @@
                       <h2>Change Name</h2>
                     </div>
                     <hr>
-                    <input type="text" class="input" placeholder="Name"/>
-                    <button class="save-btn">Save</button>
+                    <input type="text" class="input" placeholder="Name" id="nameInput"/>
+                    <button class="save-btn" id="saveName">Save</button>
                   </div>
                 </div>
                 <!-- Username row -->
                 <div class="row" id="usernameRow">
                     <div>
-                        <p id="label">Username</p>
+                        <p id="usernameText">Username</p>
                         <p id="value">username</p>
                     </div>
                     <div class="arrow-btn">
@@ -128,16 +128,16 @@
                       <h2>Change Username</h2>
                     </div>
                     <hr>
-                    <input type="text" class="input" placeholder="Username"/>
-                    <button class="save-btn">Save</button>
+                    <input type="text" class="input" placeholder="Username" id="usernameInput"/>
+                    <button class="save-btn" id="saveUsername">Save</button>
                   </div>
                 </div>
                 <div>
-                    <p id="label">Student Number</p>
+                    <p id="studentNumber">Student Number</p>
                     <p id="value">000000000</p>
                 </div>
                 <div>
-                    <p id="label">CvSU Email</p>
+                    <p id="emailText">CvSU Email</p>
                     <p id="value">name.surname@cvsu.edu.ph</p>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                 <!-- Password row -->
                 <div class="row" id="passwordRow">
                     <div>
-                        <p id="label">Password</p>
+                        <p id="passwordText">Password</p>
                         <p id="value">********</p>
                     </div>
                     <div class="arrow-btn">
@@ -163,10 +163,9 @@
                       <h2>Change Password</h2>
                     </div>
                     <hr>
-                    <input type="text" class="input" placeholder="**********"/>
-                    <input type="text" class="input" placeholder="New Password"/>
-                    <input type="text" class="input" placeholder="Confirm Password"/>
-                    <button class="save-btn">Update</button>
+                    <input type="password" class="input" id="newPasswordInput" placeholder="New Password"/>
+                    <input type="password" class="input" id="confirmPasswordInput" placeholder="Confirm Password"/>
+                    <button class="save-btn" id="savePassword">Update</button>
                   </div>
                 </div>
                 <!-- Delete Account row -->
@@ -182,9 +181,10 @@
                 <!-- Delete Account Modal -->
                 <div class="modal" id="deleteAccountModal">
                   <div class="modal-box">
-                    <p>Are you sure you want to delete your account?</p>
-                    <br>
-                    <p>All your data will be permanently deleted.</p>
+                    <div class="deleteAccountText">
+                      <p>Are you sure you want to delete your account?</p>
+                      <p>All your data will be permanently deleted.</p>
+                    </div>
                     <div class="deleteAccountBtn">
                       <button class="cancel-btn" id="cancelDelete">Cancel</button>
                       <button class="save-btn">Delete Account</button>
@@ -194,8 +194,8 @@
                   </div>
                 </div>
 
-                <div>
-                    <p id="label">Logout</p>
+                <div class="logoutBtn">
+                    <a href="index.html" id="label">Logout</a>
                 </div>
             </div>
 
