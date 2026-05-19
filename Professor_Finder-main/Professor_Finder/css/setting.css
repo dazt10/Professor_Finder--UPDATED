@@ -94,7 +94,7 @@ body {
 	padding: 10px 0;
 }
 
-#label {
+#label, #usernameText, #nameText, #studentNumber, #passwordText, #emailText {
 	color: #71c22a;
 	font-weight: 600;
 	font-size: 18px;
@@ -102,6 +102,12 @@ body {
 
 #value {
 	color: #7a7a7a;
+}
+
+/* logout button */
+.logoutBtn a {
+	cursor: pointer;
+	text-decoration: none;
 }
 
 /* ===== MODALS ===== */
@@ -180,7 +186,24 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
 	margin-bottom: 15px;
 	color: rgb(98, 97, 97);
 }
+
+/* delete account */
+.deleteAccountBtn {
+	text-align: right;
+}
+
+.deleteAccountText  {
+	text-align: left;
+	color: rgb(98, 97, 97);
+	margin-bottom: 15px;
+}
+
+#cancelDelete {
+	background: none;
+	color: rgb(98, 97, 97);
+}
+
+
