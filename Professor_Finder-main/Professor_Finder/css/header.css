@@ -1,0 +1,184 @@
+/* HEADER */
+/* logo, navbar, menu */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 40px;
+	background-color: green;
+	box-shadow: 0px 10px 10px black;
+}
+
+.logo-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fed656;
+	-webkit-text-stroke: 2px #a38905;
+}
+
+/* logo img */
+.logo img {
+	width: 100px;
+	height: auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 40px;
+}
+
+.nav-bar ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+
+.nav-btn-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-btn-header a {
+	padding: 10px;
+}
+
+.nav-btn-header a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 15px;
+}
+
+nav ul li,
+nav a {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.nav-bar ul img {
+	scale: 1.3;
+}
+
+.menu-nav img {
+	scale: 1.6;
+}
+
+.menu-nav img:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 30px;
+}
+
+.menu-nav:hover .menu-btn {
+	position: absolute;
+	display: block;
+	top: 7%;
+	left: 86.5%;
+}
+
+.menu-btn {
+	display: none;
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 15px;
+	padding: 15px;
+	list-style: none;
+	width: auto;
+	height: auto;
+}
+
+/* menu text */
+#name {
+	color: #71c22a;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#username {
+	color: #7a7a7a;
+}
+
+/* setting and logout icons */
+#setting-icon,
+#logout-icon {
+	width: 18px;
+}
+
+/* setting and logout button */
+.setting-btn {
+	margin-bottom: 10px;
+}
+
+.setting-btn,
+.logout-btn {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+}
+
+/* setting and logout btn texts */
+.setting-btn li a,
+.logout-btn li a {
+	color: #71c22a;
+	font-size: 16px;
+}
+
+.hr {
+	border-bottom: 2px solid grey;
+	margin: 10px 0;
+	width: 200px;
+}
+
+.menu-btn a {
+	text-decoration: none;
+	color: #275100;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.header nav {
+	display: flex;
+}
+
+/* search bar */
+#search-bar {
+	border: 1px solid grey;
+	border-radius: 40px;
+	padding: 15px;
+	width: 200%;
+	position: relative;
+}
+
+::placeholder {
+	color: rgba(11, 11, 11, 0.545);
+}
+
+/* profile and account setting header */
+#profile,
+#account-setting {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	background: linear-gradient(to bottom, #4f7e27, #6fb136, #8bdd43);
+	color: #ffffff;
+	border-radius: 30px;
+	padding: 2px 15px;
+	width: fit-content;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* profile and account setting icons */
+#account-icon {
+	width: 27px;
+}
+
+#right-icon {
+	width: 30px;
+}

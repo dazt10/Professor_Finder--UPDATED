@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link rel="stylesheet" href="/Professor_Finder/css/index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<img src="/Professor_Finder/assets/images/bg.jpg" id="cvsu-bg" />
+		<div class="container">
+			<span class="dot1"></span>
+			<span class="dot2"></span>
+			<span class="dot3"></span>
+			<span class="dot4"></span>
+			<span class="dot5"></span>
+			<span class="dot6"></span>
+			<span class="dot7"></span>
+			<span class="dot8"></span>
+
+			<div class="logo-box">
+				<img
+					src="/Professor_Finder/assets/images/logo.png"
+					id="cvsu-logo"
+				/>
+				<svg width="500" height="100">
+					<text
+						x="50%"
+						y="50%"
+						text-anchor="middle"
+						dominant-baseline="middle"
+						class="cvsu-main"
+					>
+						CvSU-MAIN
+					</text>
+				</svg>
+
+				<svg width="500" height="100">
+					<text
+						x="50%"
+						y="30%"
+						text-anchor="middle"
+						dominant-baseline="middle"
+						class="prof-finder"
+					>
+						Professor Finder
+					</text>
+				</svg>
+			</div>
+
+			<div class="login-transp-box">
+				<h1>Login</h1>
+				<form class="input-form">
+					<div class="inpStudennt-num">
+						<label>
+							<i class="studnum-icon"
+								><img
+									src="/Professor_Finder/assets/images/icons/person-icon.svg"
+									alt=""
+							/></i>
+							<input
+								type="text"
+								id="Student-num"
+								minlength="0"
+								maxlength="9"
+								placeholder="STUDENT NUMBER"
+								required
+							/>
+						</label>
+					</div>
+
+					<div class="inpPass">
+						<label>
+							<i class="pass-icon"
+								><img
+									src="/Professor_Finder/assets/images/icons/password-icon.svg"
+									alt=""
+							/></i>
+							<input
+								type="password"
+								id="password"
+								placeholder="PASSWORD"
+								required
+							/>
+						</label>
+					</div>
+
+					<div class="remember-me">
+						<label>
+							<input type="checkbox" id="remember" />REMEMBER ME
+						</label>
+					</div>
+
+					<div class="login-btn">
+						<button type="submit" id="log-btn">
+							<a
+								href="/Professor_Finder/main/dashboard/dashboard.html"
+								>LOGIN</a
+							>
+						</button>
+					</div>
+				</form>
+
+				<div class="create-forgot">
+					<a href="create.html">CREATE AN ACCOUNT</a>
+					<span style="color: white; margin: 0px 10px 0px 10px"
+						>|</span
+					>
+					<a href="#">FORGOT PASSWORD?</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,261 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: green;
+	overflow: hidden;
+	font-family: 'Instrument', sans-serif;
+}
+
+#cvsu-bg {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.container {
+	background-color: rgba(75, 183, 23, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	width: 100%;
+	min-height: 100vh;
+	gap: 2rem;
+}
+
+/* LOGO AND TITLE */
+.logo-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+}
+
+#cvsu-logo {
+	width: 50vh;
+	max-width: 250px;
+	height: auto;
+}
+
+.cvsu-main,
+.prof-finder {
+	fill: #fed656;
+	stroke: #a38905;
+	stroke-width: 2px;
+}
+
+.cvsu-main {
+	font-size: 2.5rem;
+}
+
+.prof-finder {
+	font-size: 1.5rem;
+}
+
+/* LOGIN BOX */
+.login-transp-box {
+	background-color: rgb(255, 255, 255, 0);
+	backdrop-filter: blur(2px);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 40px 50px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px;
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+}
+
+.login-transp-box h1 {
+	margin-bottom: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.input-form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-bottom: 40px;
+}
+
+.studnum-icon,
+.pass-icon {
+	position: absolute;
+	scale: 1.2;
+	padding: 12px 10px;
+	min-width: 35px;
+}
+
+#Student-num,
+#password {
+	border-radius: 15px;
+	outline: none;
+	box-shadow: none;
+	width: 100%;
+	height: 50px;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	padding-left: 12%;
+}
+
+#Student-num::placeholder,
+#password::placeholder {
+	color: #4b8717;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.login-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#log-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 19px;
+	font-weight: 700;
+	border-radius: 15px;
+	outline: none;
+	box-shadow: none;
+	width: 60%;
+	height: 50px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(to top, #405230, #589027);
+}
+
+#log-btn a {
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	font-weight: 700;
+	flex-grow: 1;
+}
+
+#log-btn:hover {
+	background: linear-gradient(to top, #586e44, #6faa3b);
+}
+
+.remember-me {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+#remember {
+	margin-right: 10px;
+}
+
+#remember:hover {
+	cursor: pointer;
+}
+
+.create-forgot {
+	margin-top: 25px;
+}
+
+.create-forgot a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.create-forgot a:hover {
+	color: #fed656;
+}
+
+/* TRANSPARENT CIRCLES */
+.dot1,
+.dot2,
+.dot3,
+.dot4,
+.dot5,
+.dot6,
+.dot7,
+.dot8 {
+	position: absolute;
+	display: block;
+	background: linear-gradient(to top, #416720, #729951, #a4cc81, #cdf8a9);
+	opacity: 70%;
+	backdrop-filter: blur(3px);
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 40px;
+	z-index: 0;
+}
+
+.dot1 {
+	width: 400px;
+	height: 400px;
+	top: 5%;
+	left: 2%;
+}
+
+.dot2 {
+	width: 400px;
+	height: 400px;
+	top: 15%;
+	left: 95%;
+}
+
+.dot3 {
+	width: 250px;
+	height: 250px;
+	top: 60%;
+	left: 90%;
+}
+
+.dot4 {
+	width: 250px;
+	height: 250px;
+	top: 45%;
+	left: 70%;
+}
+
+.dot5 {
+	width: 400px;
+	height: 400px;
+	top: 105%;
+	left: 80%;
+}
+
+.dot6 {
+	width: 100px;
+	height: 100px;
+	top: 87%;
+	left: 67%;
+}
+
+.dot7 {
+	width: 400px;
+	height: 400px;
+	top: 100%;
+	left: 0%;
+}
+
+.dot8 {
+	width: 150px;
+	height: 150px;
+	top: 73%;
+	left: 73%;
+}

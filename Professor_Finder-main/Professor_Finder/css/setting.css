@@ -1,0 +1,186 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: green;
+	font-family: 'Instrument', sans-serif;
+}
+
+#cvsu-bg {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+
+/* background and opacity */
+.background-color-container {
+	background-color: rgba(37, 160, 37, 0.6);
+	width: 100%;
+	height: 100vh;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* setting-box */
+.setting-box {
+	background-color: white;
+	width: 50%;
+	height: auto;
+	border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 5px;
+	text-align: center;
+	padding: 20px 50px;
+}
+
+/* profile-box */
+.profile-box,
+.account-setting-box {
+	background-color: white;
+	padding: 20px;
+	text-align: left;
+	margin-top: 20px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 5px;
+}
+
+/* 'settings' text */
+#settings {
+	color: #71c22a;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+}
+
+/* profile and account setting header */
+#profile,
+#account-setting {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	background: linear-gradient(to bottom, #4f7e27, #6fb136, #8bdd43);
+	color: #ffffff;
+	border-radius: 30px;
+	padding: 2px 15px;
+	width: fit-content;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* profile and account setting icons */
+#account-icon {
+	width: 27px;
+}
+
+#right-icon {
+	width: 30px;
+}
+
+/* rows */
+.row {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+#label {
+	color: #71c22a;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#value {
+	color: #7a7a7a;
+}
+
+/* ===== MODALS ===== */
+
+/* Dark Background */
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(68, 67, 67, 0.495);
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+/* shows modal content */
+.modal.show {
+	display: flex;
+}
+
+/* modal content */
+.modal-box {
+	background-color: white;
+	width: 380px;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	border: 1px solid grey;
+}
+
+/* close button */
+.close {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	font-size: 20px;
+	cursor: pointer;
+	font-size: 40px;
+}
+
+/* modal input */
+.input {
+	width: 90%;
+	padding: 10px;
+	margin-top: 15px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	background-color: rgba(243, 239, 239, 0.941);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.188);
+}
+
+/* save button */
+.save-btn,
+.cancel-btn {
+	margin-top: 18px;
+	padding: 7px 45px;
+	background: linear-gradient(to bottom, #4f7e27, #6fb136, #8bdd43);
+	color: white;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+/* row */
+.row {
+	cursor: pointer;
+}
+
+/* title of modal content */
+.modal-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 15px;
+	color: rgb(98, 97, 97);
+}
