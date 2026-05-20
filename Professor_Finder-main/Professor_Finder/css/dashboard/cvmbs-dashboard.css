@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-	background-color: rgba(144, 238, 144, 0.6);
+	background-color: rgba(51, 97, 51, 0.719);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -221,7 +221,7 @@ body {
 
 /* section boxes */
 .sched-container {
-	padding: 20px 5px;
+	padding: 10px 5px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
 	grid-template-rows: auto;
@@ -376,6 +376,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 20px;
 }
 
 .program-btn {
