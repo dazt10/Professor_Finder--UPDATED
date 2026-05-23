@@ -176,3 +176,7776 @@ fourthYear.addEventListener('click', () => {
 	year_section7.innerHTML = '4-7';
 	year_section8.innerHTML = '4-8';
 });
+
+
+// =====SCHEDULE PAGE FUNCTION=====
+
+// Schedules
+
+const schedules = {
+
+	// === BAE ===
+	// 1ST YEARS
+
+	"BAE 1-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 1-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 1-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 1-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 1-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 1-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 1-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 1-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	// 2ND YEARS
+	"BAE 2-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 2-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 2-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 2-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 2-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 2-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 2-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 2-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	// 3RD YEARS
+	"BAE 3-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 3-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 3-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 3-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 3-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 3-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 3-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 3-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	// 4TH YEARS
+	"BAE 4-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 4-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 4-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 4-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 4-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 4-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 4-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BAE 4-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// === BSA ===
+// 1ST YEARS
+
+	"BSA 1-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 1-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 1-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 1-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 1-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 1-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 1-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 1-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 2ND YEARS
+	"BSA 2-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 2-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 2-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 2-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 2-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 2-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 2-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 2-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 3RD YEARS
+	"BSA 3-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 3-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 3-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 3-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 3-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 3-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 3-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 3-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 4TH YEARS
+	"BSA 4-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 4-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 4-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 4-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 4-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 4-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 4-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSA 4-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// === BSES ===
+// 1ST YEARS
+	"BSES 1-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 1-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 1-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 1-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 1-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 1-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 1-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 1-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 2ND YEARS
+	"BSES 2-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 2-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 2-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 2-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 2-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 2-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 2-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 2-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 3RD YEARS
+	"BSES 3-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 3-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 3-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 3-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 3-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 3-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 3-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 3-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 4TH YEARS
+	"BSES 4-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 4-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 4-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 4-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 4-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 4-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 4-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSES 4-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// === BSFT ===
+// 1ST YEARS
+	"BSFT 1-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 1-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 1-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 1-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 1-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 1-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 1-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 1-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 2ND YEARS
+	"BSFT 2-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 2-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 2-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 2-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 2-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 2-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 2-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 2-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 3RD YEARS
+	"BSFT 3-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 3-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 3-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 3-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 3-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 3-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 3-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 3-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+// 4TH YEARS
+	"BSFT 4-1": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 4-2": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 4-3": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 4-4": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 4-5": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 4-6": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 4-7": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+
+	"BSFT 4-8": {
+		subjects: [
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+
+			{
+				code: "0000000000",
+				course: "Course title",
+				schedule: "Unknown",
+				room: "Unknown",
+			},
+		]
+	},
+}
+
+// Book Button
+
+const bookButtons = document.querySelectorAll(".book");
+
+bookButtons.forEach(button => {
+	
+	button.addEventListener("click", () => {
+		const card = button.closest(".section-box");
+		const program = card.querySelector(".prog-title").textContent;
+		const year = card.querySelector(".year-title").textContent;
+
+		const section = `${program} ${year}`;
+
+		showSchedule(section);
+	})
+})
+
+// MAIN FUNCTION
+
+function showSchedule(section) {
+
+	document.getElementById("homePage").style.display = "none";
+	document.getElementById("dropdown").style.display = "none";
+	document.getElementById("schedulePage").style.display = "block";
+	
+
+	const data = schedules[section].subjects;
+
+	const container = document.getElementById("scheduleContainer");
+	const subjectName = document.querySelector(".subject-name");
+
+	container.innerHTML = "";
+
+
+	data.forEach(subjects => {
+		subjectName.innerHTML = section;
+		container.innerHTML += `
+		<div class="grid-box">
+			<div class="schedule-row">
+				<div class="vr"></div>
+				<p>${subjects.code}</p>
+				<div class="vr"></div>
+				<p>${subjects.course}</p>
+				<div class="vr"></div>
+				<p>${subjects.schedule}</p>
+				<div class="vr"></div>
+				<p>${subjects.room}</p>
+				<div class="vr"></div>
+			</div>
+		</div>
+
+		
+		`;
+	});
+}
+
+function goBack() {
+
+	document.getElementById("homePage").style.display = "grid";
+	document.getElementById("dropdown").style.display = "flex";
+	document.getElementById("schedulePage").style.display = "none";
+}
