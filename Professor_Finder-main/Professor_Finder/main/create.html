@@ -4,17 +4,27 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Create Account</title>
-		<link rel="stylesheet" href="/Professor_Finder/css/create.css" />
+
+		<link rel="stylesheet" href="../css/create.css" />
+
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
 		<link
-			href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
+
 	<body>
-		<img src="/Professor_Finder/assets/images/bg.jpg" id="cvsu-bg" />
+
+		<!-- Background -->
+		<img src="../assets/images/bg.jpg" id="cvsu-bg" alt="Background" />
+
 		<div class="container">
+
+			<!-- Decorative dots -->
 			<span class="dot1"></span>
 			<span class="dot2"></span>
 			<span class="dot3"></span>
@@ -24,11 +34,15 @@
 			<span class="dot7"></span>
 			<span class="dot8"></span>
 
+			<!-- Logo section -->
 			<div class="logo-box">
+
 				<img
-					src="/Professor_Finder/assets/images/logo.png"
+					src="../assets/images/logo.png"
 					id="cvsu-logo"
+					alt="CvSU Logo"
 				/>
+
 				<svg width="500" height="100">
 					<text
 						x="50%"
@@ -52,18 +66,23 @@
 						Professor Finder
 					</text>
 				</svg>
+
 			</div>
 
+			<!-- Create account box -->
 			<div class="create-transp-box">
+
 				<h1>Create Account</h1>
+
 				<form class="input-form">
+
+					<!-- Full Name -->
 					<div class="inpName">
 						<label>
-							<i class="person-icon"
-								><img
-									src="/Professor_Finder/assets/images/icons/person-icon.svg"
-									alt=""
-							/></i>
+							<i class="person-icon">
+								<img src="../assets/images/icons/person-icon.svg" alt="" />
+							</i>
+
 							<input
 								type="text"
 								id="full-name"
@@ -73,13 +92,13 @@
 						</label>
 					</div>
 
+					<!-- Email -->
 					<div class="inpEmail">
 						<label>
-							<i class="email-icon"
-								><img
-									src="/Professor_Finder/assets/images/icons/email-icon.svg"
-									alt=""
-							/></i>
+							<i class="email-icon">
+								<img src="../assets/images/icons/email-icon.svg" alt="" />
+							</i>
+
 							<input
 								type="email"
 								id="cvsu-email"
@@ -89,17 +108,16 @@
 						</label>
 					</div>
 
+					<!-- Student Number -->
 					<div class="inpStudennt-num">
 						<label>
-							<i class="studnum-icon"
-								><img
-									src="/Professor_Finder/assets/images/icons/person-icon.svg"
-									alt=""
-							/></i>
+							<i class="studnum-icon">
+								<img src="../assets/images/icons/person-icon.svg" alt="" />
+							</i>
+
 							<input
 								type="text"
 								id="Student-num"
-								minlength="0"
 								maxlength="9"
 								placeholder="STUDENT NUMBER"
 								required
@@ -107,13 +125,13 @@
 						</label>
 					</div>
 
+					<!-- Password -->
 					<div class="inpPass">
 						<label>
-							<i class="pass-icon"
-								><img
-									src="/Professor_Finder/assets/images/icons/password-icon.svg"
-									alt=""
-							/></i>
+							<i class="pass-icon">
+								<img src="../assets/images/icons/password-icon.svg" alt="" />
+							</i>
+
 							<input
 								type="password"
 								id="password"
@@ -123,29 +141,36 @@
 						</label>
 					</div>
 
+					<!-- Terms -->
 					<div class="terms-con">
 						<label>
-							<input type="checkbox" id="terms" required /><a
-								href=""
-								>I AGREE IN TERMS AND CONDITIONS</a
-							>
+							<input type="checkbox" id="terms" required />
+							<a href="#">
+								I AGREE TO THE TERMS AND CONDITIONS
+							</a>
 						</label>
 					</div>
 
+					<!-- Submit -->
 					<div class="create-btn">
 						<button type="submit" id="create-btn">
 							CREATE ACCOUNT
 						</button>
 					</div>
 
+					<!-- Login link -->
 					<div class="have-account">
 						<p>
 							Already have an account?
 							<a href="index.html">Sign in</a>
 						</p>
 					</div>
+
 				</form>
+
 			</div>
+
 		</div>
+
 	</body>
 </html>
