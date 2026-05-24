@@ -352,6 +352,7 @@ body {
 
 .program-cafenr:hover .sidenav,
 .program-cas:hover .sidenav,
+.program-ccj:hover .sidenav,
 .program-ced:hover .sidenav,
 .program-ceit:hover .sidenav,
 .program-cemds:hover .sidenav,
@@ -387,6 +388,7 @@ body {
 
 .year-btn {
 	width: 200px;
+	text-align: start;
 }
 
 .program-btn,
