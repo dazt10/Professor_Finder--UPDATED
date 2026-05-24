@@ -1,774 +1,571 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
-    <link
-      rel="stylesheet"
-      href="/Professor_Finder/css/dashboard/ced-dashboard.css"
-    />
-    <link rel="stylesheet" href="/Professor_Finder/css/header.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
-      rel="stylesheet"
-    />
-    <script defer src="/Professor_Finder/js/ced.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <div class="logo-title">
-          <div class="logo">
-            <img
-              src="/Professor_Finder/assets/images/logo.png"
-              alt="Cvsu Logo"
-            />
-          </div>
-
-          <div class="title">
-            <h1>CvSU-MAIN</h1>
-            <h2>PROFESSOR FINDER</h2>
-          </div>
-        </div>
-
-        <div class="search-bar">
-          <input
-            type="search"
-            name="search-bar"
-            id="search-bar"
-            placeholder="Search"
-          />
-          <label for="search-bar"></label>
-        </div>
-
-        <nav>
-          <div class="nav-bar">
-            <ul>
-              <div class="nav-btn-header">
-                <img
-                  src="/Professor_Finder/assets/images/icons/home-icon.svg"
-                  alt=""
-                />
-                <li><a href="dashboard.html">Home</a></li>
-              </div>
-              <div class="nav-btn-header">
-                <img
-                  src="/Professor_Finder/assets/images/icons/white-book-icon.svg"
-                  alt=""
-                />
-                <li>
-                  <a href="cafenr-dashboard.html">Schedule</a>
-                </li>
-              </div>
-              <div class="nav-btn-header">
-                <img
-                  src="/Professor_Finder/assets/images/icons/white-message icon4.svg"
-                  alt=""
-                />
-                <li><a href="message.html">Message</a></li>
-              </div>
-            </ul>
-          </div>
-        </nav>
-
-        <div class="menu-nav">
-          <img
-            class="menu-icon"
-            src="/Professor_Finder/assets/images/icons/menu-icon.svg"
-            alt=""
-          />
-          <ul class="menu-btn">
-            <p id="name">Name</p>
-            <p id="username">username</p>
-            <p></p>
-            <div class="hr"></div>
-            <div class="setting-btn">
-              <img
-                src="/Professor_Finder/assets/images/icons/lightgreen settings icon.svg"
-                id="setting-icon"
-                alt="setting icon"
-              />
-              <li>
-                <img src="" alt="" /><a href="../setting.html">Settings</a>
-              </li>
-            </div>
-            <div class="logout-btn">
-              <img
-                src="/Professor_Finder/assets/images/icons/lightgreen logout icon.svg"
-                id="logout-icon"
-                alt="logout icon"
-              />
-              <li><img src="" alt="" /><a href="../index.html">Log Out</a></li>
-            </div>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <img src="/Professor_Finder/assets/images/bg.jpg" id="cvsu-bg" />
-    <div class="container">
-      <div class="nav-box">
-        <div class="nav-btn">
-          <div class="program-cafenr">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="cafenr-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="cafenr-dashboard.html">CAFENR</a></li>
-            </ul>
-          </div>
-
-          <div class="program-cas">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="cas-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="cas-dashboard.html">CAS</a></li>
-            </ul>
-          </div>
-
-          <div class="program-ccj">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="ccj-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="ccj-dashboard.html">CCJ</a></li>
-            </ul>
-          </div>
-
-          <div class="program-ced">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="ced-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="ced-dashboard.html">CEd</a></li>
-            </ul>
-          </div>
-
-          <div class="program-ceit">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="ceit-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="ceit-dashboard.html">CEIT</a></li>
-            </ul>
-          </div>
-
-          <div class="program-cemds">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="cemds-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="cemds-dashboard.html">CEMDS</a></li>
-            </ul>
-          </div>
-
-          <div class="program-con">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="con-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="con-dashboard.html">CON</a></li>
-            </ul>
-          </div>
-
-          <div class="program-cspear">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="cspear-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="cspear-dashboard.html">CSPEAR</a></li>
-            </ul>
-          </div>
-
-          <div class="program-cvmbs">
-            <div class="sidenav">
-              <ul>
-                <li>
-                  <a href="cvmbs-dashboard.html" id="viewSchedules"
-                    >View Schedules</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="profFinder">View Prof. Finder</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li><a href="cvmbs-dashboard.html">CVMBS</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- nav-btn -->
-
-        <div class="profile-section">
-          <!--profile-->
-          <div class="profile">
-            <img
-              src="/Professor_Finder/assets/images/icons/acc-circle.svg"
-              alt="account circle"
-              id="account-circle"
-            />
-            <!--account navigation popup-->
-            <div class="account-navigation">
-              <ul>
-                <li>
-                  <a href="../setting.html" id="account"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/account icon.svg"
-                    />Account</a
-                  >
-                </li>
-                <li>
-                  <a href="../setting.html" id="settings"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/settings icon.svg"
-                    />Settings</a
-                  >
-                </li>
-                <li>
-                  <a href="#" id="messages"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/message icon.svg"
-                    />Messages</a
-                  >
-                </li>
-                <li>
-                  <a href="../index.html" id="logout"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/logout icon.svg"
-                    />Log out</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="student-info">
-            <p>Alison Reyes</p>
-            <p>251014843</p>
-          </div>
-        </div>
-      </div>
-      <!-- nav-box -->
-
-      <div class="main-page">
-        <div class="dropdown" id="dropdown">
-          <div class="program-dropdown">
-            <button class="program-btn" id="program-change">
-              Early Childhood Education
-            </button>
-            <ul class="program-list">
-              <li class="top-program" id="ba-early-edu">
-                Early Childhood Education
-              </li>
-              <li id="ba-elem-edu">Elementary Education</li>
-              <li id="ba-second-edu">Secondary Education</li>
-              <li id="ba-special-edu">Special Needs Education</li>
-              <li id="ba-tech-live">Technology and Livelihood Education</li>
-              <li id="bs-hospi-man">Hospitality Management</li>
-              <li class="bottom-program" id="bs-tourism">Tourism Management</li>
-            </ul>
-          </div>
-
-          <div class="year-dropdown">
-            <button class="year-btn" id="year-change">First Year</button>
-            <ul class="year-list">
-              <li class="top-year" id="1st-year">First Year</li>
-              <li id="2nd-year">Second Year</li>
-              <li id="3rd-year">Third Year</li>
-              <li class="bottom-year" id="4th-year">Fourth Year</li>
-            </ul>
-          </div>
-          <!-- profile-section -->
-        </div>
-        <!-- dropdown-search -->
-
-        <div class="sched-container" id="homePage">
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title1" class="year-title">1-1</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>Kathelyn Garcia</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title2" class="year-title">1-2</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>Alison Reyes</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title3" class="year-title">1-3</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>Jack Mendoza</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title4" class="year-title">1-4</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>Hilary Natividad</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title5" class="year-title">1-5</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>Kate Gutierrez</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title6" class="year-title">1-6</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>Katherine Pagsuyuin</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title7" class="year-title">1-7</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>Kenji Lopez</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="sched-box">
-            <div class="section-box">
-              <div class="section">
-                <h1 class="prog-title">BECEd</h1>
-                <h1 id="year-title8" class="year-title">1-8</h1>
-              </div>
-
-              <div class="program-name">
-                <p class="nameProgram">Early Childhood Education</p>
-              </div>
-
-              <div class="year-sem">
-                <p class="yearLevel">1st Year</p>
-                <p class="semLevel">1st Sem</p>
-              </div>
-
-              <div class="sched-code">
-                <h3>SCHEDULE:</h3>
-                <p>000000000 - NSTP 1</p>
-                <p>000000000 - FITT 1</p>
-                <p>000000000 - DCIT 22</p>
-              </div>
-
-              <div class="repre">
-                <h3>N/A</h3>
-                <p><b>Class Representative</b></p>
-              </div>
-
-              <div class="two-btn">
-                <button id="link-btn">
-                  <a href="#" id="contact"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-message.svg"
-                  /></a>
-                </button>
-                <button id="link-btn">
-                  <a href="#" class="book"
-                    ><img
-                      src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
-                  /></a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- sched-box -->
-        </div>
-        <!-- sched-container -->
-
-        <!-- SCHEDULE PAGE -->
-        <div id="schedulePage">
-          <div class="subject-back-box">
-            <div class="subject-name">
-              <p>COMPUTER PROGRAMMING 1</p>
-            </div>
-
-            <button id="back-btn" onclick="goBack()">
-              <a href=""
-                ><img
-                  src="/Professor_Finder/assets/images/icons/back-icon4.svg"
-                />BACK</a
-              >
-            </button>
-          </div>
-          <div class="title-column">
-            <div class="title-course">
-              <p>COURSE CODE</p>
-            </div>
-
-            <div class="title-prof">
-              <p>COURSE</p>
-            </div>
-
-            <div class="title-section">
-              <p>SCHEDULE</p>
-            </div>
-
-            <div class="title-contact">
-              <p>BUILDING/ROOM</p>
-            </div>
-          </div>
-          <div id="scheduleContainer"></div>
-        </div>
-        <!-- schedule page -->
-      </div>
-      <!-- main-page -->
-    </div>
-    <!-- container -->
-  </body>
-</html>
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: green;
+	font-family: 'Instrument', sans-serif;
+}
+
+#cvsu-bg {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.container {
+	background-color: rgba(51, 97, 51, 0.719);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	gap: 2rem;
+}
+
+.nav-box {
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 30px;
+	background-color: rgb(255, 255, 255, 0.3);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 20px;
+	height: 90vh;
+	box-shadow: 1px 0px 8px;
+}
+
+.nav-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+
+.profile-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.program-ced {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 30px;
+	width: 20vh;
+	height: 4.5vh;
+	background: linear-gradient(to top, #2c4615, #36561a, #416720);
+	box-shadow: 0 0 7px;
+}
+
+.program-cafenr,
+.program-cas,
+.program-ccj,
+.program-ceit,
+.program-cemds,
+.program-com,
+.program-con,
+.program-cspear,
+.program-cthm,
+.program-cvmbs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 30px;
+	width: 20vh;
+	height: 4.5vh;
+	background: linear-gradient(to top, #416720, #619a2f, #81cd3f);
+	box-shadow: 0 0 7px;
+}
+
+.program-cafenr:hover,
+.program-cas:hover,
+.program-ccj:hover,
+.program-ceit:hover,
+.program-cemds:hover,
+.program-con:hover,
+.program-cspear:hover,
+.program-cvmbs:hover,
+.sidenav a:hover {
+	background: linear-gradient(to top, #4f7e27, #6fb136, #8bdd43);
+	cursor: pointer;
+}
+.program-cafenr ul li,
+.program-cas ul li,
+.program-ccj ul li,
+.program-ced ul li,
+.program-ceit ul li,
+.program-cemds ul li,
+.program-con ul li,
+.program-cspear ul li,
+.program-cvmbs ul li {
+	list-style: none;
+	cursor: pointer;
+}
+
+.program-cafenr a,
+.program-cas a,
+.program-ccj a,
+.program-ced a,
+.program-ceit a,
+.program-cemds a,
+.program-con a,
+.program-cspear a,
+.program-cvmbs a {
+	text-decoration: none;
+	color: white;
+	align-items: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*account nav*/
+.account-navigation {
+	display: none;
+	background-color: rgba(255, 255, 255, 0.889);
+	position: absolute;
+	bottom: 90px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+	border-radius: 40px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	width: 180px;
+}
+
+.account-navigation ul li {
+	list-style: none;
+}
+
+.account-navigation a {
+	text-decoration: none;
+	color: #275100;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.student-info p {
+	text-decoration: none;
+	color: #275100;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.profile:hover .account-navigation {
+	position: absolute;
+	display: block;
+	bottom: 90px;
+	left: 110%;
+	transform: translateX(-50%);
+}
+
+.account-navigation::after {
+	content: '';
+	position: absolute;
+	bottom: -40px;
+	left: 28%;
+	transform: translateX(-50%);
+	border-width: 20px;
+	border-style: solid;
+	border-color: white transparent transparent transparent;
+}
+
+#account,
+#settings,
+#messages,
+#logout {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	gap: 6px;
+	padding: 0 20px;
+	margin: 5px 0;
+}
+
+.profile {
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+#account-circle {
+	width: 60px;
+	height: auto;
+	cursor: pointer;
+	padding: 5px;
+}
+
+/* main page */
+.main-page {
+	border: 2px solid rgb(255, 255, 255);
+	/* border: 2px solid rgba(255,255,255,0.3); */
+	border-radius: 30px;
+	background-color: #fdf8f2;
+	/* background-color: rgb(255,255,255,0.3); */
+	padding: 20px;
+	width: 60%;
+	height: 90vh;
+	box-shadow: 0px 0px 10px;
+}
+
+/* section boxes */
+.sched-container {
+	padding: 10px 5px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+	grid-template-rows: auto;
+	align-items: start;
+	text-align: center;
+	gap: 1em;
+	height: 80vh;
+	overflow-y: auto; /*--- if madami and need ng scroll bar*/
+	scrollbar-width: none;
+	border-radius: 30px;
+}
+
+.section-box {
+	padding: 15px;
+	background-color: white;
+	border: 2px solid grey;
+	border-radius: 30px;
+	box-shadow: 0px 0px 5px;
+}
+
+.section-box:hover {
+	transform: translateY(-5px);
+	transition: 0.5s;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	margin-bottom: 15px;
+}
+
+.section.block {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	margin-bottom: 15px;
+}
+
+.program-name {
+	margin-bottom: 10px;
+}
+
+.year-sem {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 15px;
+	color: white;
+}
+
+.yearLevel {
+	background-color: #4b8717;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
+
+.semLevel {
+	background-color: #71c22a;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
+
+.sched-code {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid grey;
+	border-radius: 20px;
+	box-shadow: 0px 0px 3px;
+	padding: 15px 25px;
+	margin-bottom: 15px;
+}
+
+.sched-code p {
+	text-align: left;
+}
+
+.repre p {
+	color: grey;
+}
+
+.two-btn {
+	margin-top: 10px;
+	display: flex;
+	justify-content: end;
+	gap: 1em;
+}
+
+#link-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6px 13px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 0 3px;
+}
+
+#link-btn img {
+	scale: 1.3;
+}
+
+#link-btn:hover {
+	cursor: pointer;
+}
+
+.two-btn a {
+	text-decoration: none;
+	color: black;
+}
+
+/*sidenav*/
+.sidenav {
+	display: none;
+	position: absolute;
+	margin-left: 16.5%;
+	padding: 8px 15px;
+	background: rgba(255, 255, 255, 0.889);
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.sidenav a {
+	display: block;
+	text-align: center;
+	background: linear-gradient(to top, #416720, #619a2f, #81cd3f);
+	padding: 8px 20px;
+	margin: 5px 0;
+	border-radius: 20px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	font-size: 19px;
+}
+
+.program-cafenr:hover .sidenav,
+.program-cas:hover .sidenav,
+.program-ccj:hover .sidenav,
+.program-ceit:hover .sidenav,
+.program-cemds:hover .sidenav,
+.program-con:hover .sidenav,
+.program-cspear:hover .sidenav,
+.program-cvmbs:hover .sidenav {
+	display: block;
+}
+
+.sidenav::after {
+	content: '';
+	position: absolute;
+	top: 46px;
+	left: -18%;
+	transform: translateY(-50%);
+	border-width: 20px;
+	border-style: solid;
+	border-color: transparent white transparent transparent;
+}
+
+/* dropdown */
+.dropdown {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.program-btn {
+	width: 400px;
+	text-align: start;
+}
+
+.year-btn {
+	width: 200px;
+}
+
+.program-btn,
+.year-btn {
+	padding: 10px 20px;
+	background-color: white;
+	color: #7a7a7a;
+	border: none;
+	font-size: 17px;
+	font-weight: 700;
+	border: 2px solid #7a7a7a;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.program-list,
+.year-list {
+	display: none;
+	margin-top: 10px;
+	height: 300px;
+	overflow: auto;
+	scrollbar-width: none;
+	border-radius: 10px;
+}
+
+.top-program,
+.top-year {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.bottom-program,
+.bottom-year {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.program-list li {
+	width: auto;
+}
+
+.year-list li {
+	width: 150px;
+}
+
+.program-list li,
+.year-list li {
+	list-style: none;
+	background-color: white;
+	color: #7a7a7a;
+	border: 2px solid #7a7a7a;
+	padding: 10px;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.program-list li:hover,
+.year-list li:hover {
+	background-color: rgb(231, 231, 231);
+	color: black;
+	cursor: pointer;
+}
+
+.program-dropdown.active .program-list,
+.year-dropdown.active .year-list {
+	position: absolute;
+	display: block;
+	z-index: 999;
+}
+
+
+/* SCHEDULE PAGE */
+
+#schedulePage {
+	display: none;
+}
+
+.grid-box{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 1em;
+    height: 7vh;
+    padding: 3px 5px;
+	margin-bottom: 15px;
+}
+
+.schedule-row{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px;
+    padding: 0 20px;
+    color: black;
+    font-weight: 700;
+
+}
+
+#scheduleContainer {
+	overflow-y: auto; /* --- if madami and need ng scroll bar*/ 
+}
+
+.vr{
+    border-left: 2px solid grey;
+    height: 70px;
+}
+
+.title-column{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 20px;
+	gap: 190px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.subject-back-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subject-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgreen;
+    border-radius: 30px ;
+    min-height: 4.5vh;
+    padding: 0 50px;
+    background: linear-gradient(to bottom, #416720, #619A2F, #81CD3F);
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    box-shadow: 0 0 7px black;
+}
+
+#back-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgreen;
+    border-radius: 30px ;
+    min-width: 120px;
+    min-height: 4.5vh;
+    background: linear-gradient(to bottom, #416720, #619A2F, #81CD3F);
+    box-shadow: 0 0 7px;
+}
+
+#back-btn img{
+    scale: 1.0;
+    transform: translate(-50%, 10%);
+}
+
+#back-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    flex-grow: 1;
+}
+
+#back-btn:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom, #4f7e27, #6fb136, #8bdd43);
+}
