@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dashboard</title>
+		<link
+			rel="stylesheet"
+			href="/Professor_Finder/css/prof_finder/ccj-prof.css"
+		/>
+		<link rel="stylesheet" href="/Professor_Finder/css/header.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+			rel="stylesheet"
+		/>
+		<script defer src="/Professor_Finder/js/ccj.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="logo-title">
+					<div class="logo">
+						<img
+							src="/Professor_Finder/assets/images/logo_with_name2.png"
+							alt="Cvsu Logo"
+						/>
+					</div>
+				</div>
+
+				<div class="search-bar">
+					<input
+						type="search"
+						name="search-bar"
+						id="search-bar"
+						placeholder="Search"
+					/>
+					<label for="search-bar"></label>
+				</div>
+
+				<nav>
+					<div class="nav-bar">
+						<ul>
+							<div class="nav-btn-header">
+								<img
+									src="/Professor_Finder/assets/images/icons/home-icon.svg"
+									alt=""
+								/>
+
+								<li><a href="dashboard.html">Home</a></li>
+							</div>
+							<div class="nav-btn-header">
+								<img
+									src="/Professor_Finder/assets/images/icons/white-book-icon.svg"
+									alt=""
+								/>
+								<li>
+									<a href="cafenr-dashboard.html">Schedule</a>
+								</li>
+							</div>
+							<div class="nav-btn-header">
+								<img
+									src="/Professor_Finder/assets/images/icons/white-message icon4.svg"
+									alt=""
+								/>
+								<li><a href="message.html">Message</a></li>
+							</div>
+						</ul>
+					</div>
+				</nav>
+
+				<div class="menu-nav">
+					<img
+						class="menu-icon"
+						src="/Professor_Finder/assets/images/icons/menu-icon.svg"
+						alt=""
+					/>
+					<ul class="menu-btn">
+						<p id="name">Name</p>
+						<p id="username">username</p>
+						<p></p>
+						<div class="hr"></div>
+						<div class="setting-btn">
+							<img
+								src="/Professor_Finder/assets/images/icons/lightgreen settings icon.svg"
+								id="setting-icon"
+								alt="setting icon"
+							/>
+							<li>
+								<img src="" alt="" /><a href="../setting.html"
+									>Settings</a
+								>
+							</li>
+						</div>
+						<div class="logout-btn">
+							<img
+								src="/Professor_Finder/assets/images/icons/lightgreen logout icon.svg"
+								id="logout-icon"
+								alt="logout icon"
+							/>
+							<li>
+								<img src="" alt="" /><a href="../index.html"
+									>Log Out</a
+								>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<img src="/Professor_Finder/assets/images/bg.jpg" id="cvsu-bg" />
+		<div class="container">
+			<div class="nav-box">
+				<div class="nav-btn">
+					<div class="program-cafenr">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/cafenr-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="cafenr-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/cafenr-dashboard.html"
+									>CAFENR</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-cas">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/cas-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="cas-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/cas-dashboard.html"
+									>CAS</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-ccj">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/ccj-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="ccj-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/ccj-dashboard.html"
+									>CCJ</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-ced">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/ced-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="ced-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/ced-dashboard.html"
+									>CEd</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-ceit">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/ceit-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="ceit-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/ceit-dashboard.html"
+									>CEIT</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-cemds">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/cemds-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="cemds-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/cemds-dashboard.html"
+									>CEMDS</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-con">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/con-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="con-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/con-dashboard.html"
+									>CON</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-cspear">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/cspear-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="cspear-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/cspear-dashboard.html"
+									>CSPEAR</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<div class="program-cvmbs">
+						<div class="sidenav">
+							<ul>
+								<li>
+									<a
+										href="../dashboard/cvmbs-dashboard.html"
+										id="viewSchedules"
+										>View Schedules</a
+									>
+								</li>
+								<li>
+									<a href="cvmbs-prof.html" id="profFinder"
+										>View Prof. Finder</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<ul>
+							<li>
+								<a href="../dashboard/cvmbs-dashboard.html"
+									>CVMBS</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- nav-btn -->
+
+				<div class="profile-section">
+					<!--profile-->
+					<div class="profile">
+						<img
+							src="/Professor_Finder/assets/images/icons/acc-circle.svg"
+							alt="account circle"
+							id="account-circle"
+						/>
+						<!--account navigation popup-->
+						<div class="account-navigation">
+							<ul>
+								<li>
+									<a href="../setting.html" id="account"
+										><img
+											src="/Professor_Finder/assets/images/icons/account icon.svg"
+										/>Account</a
+									>
+								</li>
+								<li>
+									<a href="../setting.html" id="settings"
+										><img
+											src="/Professor_Finder/assets/images/icons/settings icon.svg"
+										/>Settings</a
+									>
+								</li>
+								<li>
+									<a href="#" id="messages"
+										><img
+											src="/Professor_Finder/assets/images/icons/message icon.svg"
+										/>Messages</a
+									>
+								</li>
+								<li>
+									<a href="../index.html" id="logout"
+										><img
+											src="/Professor_Finder/assets/images/icons/logout icon.svg"
+										/>Log out</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="student-info">
+						<p>Alison Reyes</p>
+						<p>251014843</p>
+					</div>
+				</div>
+				<!-- profile-section -->
+			</div>
+			<!-- nav-box -->
+
+			<div class="main-page">
+				<div class="dropdown">
+					<div class="program-dropdown">
+						<button class="program-btn" id="program-change">
+							Criminology
+						</button>
+						<ul class="program-list">
+							<li class="top-program" onclick="bscrimSub()">
+								Criminology
+							</li>
+							<li class="bottom-program" onclick="bsismSub()">
+								Industrial Security Management
+							</li>
+						</ul>
+					</div>
+
+					<div class="year-dropdown">
+						<button class="year-btn" id="year-change">
+							First Year
+						</button>
+						<ul class="year-list">
+							<li class="top-year" onclick="first_Year()">
+								First Year
+							</li>
+							<li onclick="second_Year()">Second Year</li>
+							<li onclick="third_Year()">Third Year</li>
+							<li class="bottom-year" onclick="fourth_Year()">
+								Fourth Year
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- dropdown-search -->
+
+				<div class="subj-container">
+					<div class="subj-box1">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title1">Criminology Subject#1</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject1">Art Appreciation</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box2">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title2">Criminology Subject#2</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject2">Ethics</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box3">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title3">Criminology Subject#3</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject3">
+									Mathematics in the Modern World
+								</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box4">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title4">Criminology Subject#4</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject4">Purposive Communication</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box5">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title5">Criminology Subject#5</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject5">
+									Science, Technology, and Society
+								</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box6">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title6">Criminology Subject#6</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject6">Understanding The Self</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box7">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title7">Criminology Subject#7</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject7">Movement Enhancement</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box8">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title8">Criminology Subject#8</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject8">
+									National Service Training Program 1
+								</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="subj-box9">
+						<div class="subject-box">
+							<div class="subject">
+								<h1 id="subj-title9">Criminology Subject#9</h1>
+							</div>
+
+							<div class="subject-name">
+								<p id="nameSubject9">
+									Institutional Orientation
+								</p>
+							</div>
+
+							<div class="year-sem">
+								<p class="yearLevel">1st Year</p>
+								<p class="semLevel">1st Sem</p>
+							</div>
+
+							<div class="sched-code">
+								<h3>PROFESSORS:</h3>
+								<p class="prof1">202512352 - Alice Mae</p>
+								<p class="prof2">
+									202512350 - Ferrero Rochelle
+								</p>
+								<p class="prof3">202512351 - Raiden Ei</p>
+								<p class="prof4">202512349 - Joshua Garcia</p>
+								<p class="prof5">
+									202512353 - Miguel Tan Felix
+								</p>
+							</div>
+
+							<div class="two-btn">
+								<button id="link-btn">
+									<a href="#" id="book"
+										><img
+											src="/Professor_Finder/assets/images/icons/dashboard-book.svg"
+									/></a>
+								</button>
+							</div>
+						</div>
+					</div>
+					<!-- subj-box -->
+				</div>
+				<!-- subj-container -->
+			</div>
+			<!-- main-page -->
+		</div>
+		<!-- container -->
+	</body>
+</html>
