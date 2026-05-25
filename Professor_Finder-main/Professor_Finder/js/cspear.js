@@ -1,30 +1,3 @@
-// ID GETTER FOR PROF. FINDER
-let subj_title1 = document.getElementById('subj-title1');
-let subj_title2 = document.getElementById('subj-title2');
-let subj_title3 = document.getElementById('subj-title3');
-let subj_title4 = document.getElementById('subj-title4');
-let subj_title5 = document.getElementById('subj-title5');
-let subj_title6 = document.getElementById('subj-title6');
-let subj_title7 = document.getElementById('subj-title7');
-let subj_title8 = document.getElementById('subj-title8');
-let subj_title9 = document.getElementById('subj-title9');
-
-let nameSubject1 = document.getElementById('nameSubject1');
-let nameSubject2 = document.getElementById('nameSubject2');
-let nameSubject3 = document.getElementById('nameSubject3');
-let nameSubject4 = document.getElementById('nameSubject4');
-let nameSubject5 = document.getElementById('nameSubject5');
-let nameSubject6 = document.getElementById('nameSubject6');
-let nameSubject7 = document.getElementById('nameSubject7');
-let nameSubject8 = document.getElementById('nameSubject8');
-let nameSubject9 = document.getElementById('nameSubject9');
-
-let prof1 = document.querySelectorAll('.prof1');
-let prof2 = document.querySelectorAll('.prof2');
-let prof3 = document.querySelectorAll('.prof3');
-let prof4 = document.querySelectorAll('.prof4');
-let prof5 = document.querySelectorAll('.prof5');
-
 // YEAR LEVEL DROPDOWN
 let firstYear = document.getElementById('1st-year');
 let secondYear = document.getElementById('2nd-year');
@@ -175,90 +148,10 @@ fourthYear.addEventListener('click', () => {
 
 function bpedSub() {
 	program_name.innerHTML = 'Physical Education';
-
-	subj_title1.innerHTML = 'BPEd Subject#1';
-	subj_title2.innerHTML = 'BPEd Subject#2';
-	subj_title3.innerHTML = 'BPEd Subject#3';
-	subj_title4.innerHTML = 'BPEd Subject#4';
-	subj_title5.innerHTML = 'BPEd Subject#5';
-	subj_title6.innerHTML = 'BPEd Subject#6';
-	subj_title7.innerHTML = 'BPEd Subject#7';
-	subj_title8.innerHTML = 'BPEd Subject#8';
-	subj_title9.innerHTML = 'BPEd Subject#9';
-
-	nameSubject1.innerHTML = 'Art Appreciation';
-	nameSubject2.innerHTML = 'Ethics';
-	nameSubject3.innerHTML = 'Mathematics in the Modern World';
-	nameSubject4.innerHTML = 'Purposive Communication';
-	nameSubject5.innerHTML = 'Science, Technology, and Society';
-	nameSubject6.innerHTML = 'Understanding The Self';
-	nameSubject7.innerHTML = 'Movement Enhanecment';
-	nameSubject8.innerHTML = 'National Traning Service Program 1';
-	nameSubject9.innerHTML = 'Institutional Orientation';
-
-	prof1.forEach((prof) => {
-		prof.innerHTML = '202512352 - Alice Mae';
-	});
-
-	prof2.forEach((prof) => {
-		prof.innerHTML = '202512350 - Ferrero Rochelle';
-	});
-
-	prof3.forEach((prof) => {
-		prof.innerHTML = '202512351 - Raiden Ei';
-	});
-
-	prof4.forEach((prof) => {
-		prof.innerHTML = '202512349 - Joshua Garcia';
-	});
-
-	prof5.forEach((prof) => {
-		prof.innerHTML = '202512353 - Miguel Tan Felix';
-	});
 }
 
 function bsessSub() {
 	program_name.innerHTML = 'Exercise and Sports Sciences ';
-
-	subj_title1.innerHTML = 'BSESS Subject#1';
-	subj_title2.innerHTML = 'BSESS Subject#2';
-	subj_title3.innerHTML = 'BSESS Subject#3';
-	subj_title4.innerHTML = 'BSESS Subject#4';
-	subj_title5.innerHTML = 'BSESS Subject#5';
-	subj_title6.innerHTML = 'BSESS Subject#6';
-	subj_title7.innerHTML = 'BSESS Subject#7';
-	subj_title8.innerHTML = 'BSESS Subject#8';
-	subj_title9.innerHTML = 'BSESS Subject#9';
-
-	nameSubject1.innerHTML = 'Dalumat Ng/Sa Filipino';
-	nameSubject2.innerHTML = 'Purposive Communication';
-	nameSubject3.innerHTML = 'Kontekstwalisadong Komunikasyon sa Filipino';
-	nameSubject4.innerHTML = 'Art Appreciation';
-	nameSubject5.innerHTML = 'Ethics';
-	nameSubject6.innerHTML = 'Institutional Orientation';
-	nameSubject7.innerHTML = 'Understanding The Self';
-	nameSubject8.innerHTML = 'Movement Enhanecment';
-	nameSubject9.innerHTML = 'National Traning Service Program 1';
-
-	prof1.forEach((prof) => {
-		prof.innerHTML = '202512339 - Christine Prestine';
-	});
-
-	prof2.forEach((prof) => {
-		prof.innerHTML = '202512340 - Daniel Padilla';
-	});
-
-	prof3.forEach((prof) => {
-		prof.innerHTML = '202512341 - Justin Bieber';
-	});
-
-	prof4.forEach((prof) => {
-		prof.innerHTML = '202512342 - Nicole Ann';
-	});
-
-	prof5.forEach((prof) => {
-		prof.innerHTML = '202512343 - Gabriel Flores';
-	});
 }
 
 function first_Year() {
@@ -4148,21 +4041,506 @@ const schedules = {
 	},
 };
 
-// Book Button
+// ===== PROFESSOR FINDER DATABASE ====
 
-const bookButtons = document.querySelectorAll('.book');
+const professors = {
+	'GNED 01': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
 
-bookButtons.forEach((button) => {
-	button.addEventListener('click', () => {
-		const card = button.closest('.section-box');
-		const program = card.querySelector('.prog-title').textContent;
-		const year = card.querySelector('.year-title').textContent;
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
 
-		const section = `${program} ${year}`;
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
 
-		showSchedule(section);
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 02': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 03': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 04': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 05': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 06': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	FITT: {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'NSTP 1': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'CVSU 101': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+};
+
+const page = document.body.dataset.page;
+
+if (document.body.dataset.page === 'dashboard') {
+	const bookButtons = document.querySelectorAll('.book');
+
+	bookButtons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const card = button.closest('.section-box');
+			const program = card.querySelector('.prog-title').textContent;
+			const year = card.querySelector('.year-title').textContent;
+
+			const section = `${program} ${year}`;
+			showSchedule(section);
+		});
 	});
-});
+}
+
+if (document.body.dataset.page === 'prof') {
+	const bookButtons = document.querySelectorAll('.book');
+
+	bookButtons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const card = button.closest('.section-box');
+			const course = card.querySelector('.subjectName').textContent;
+			showProfessors(course);
+		});
+	});
+}
 
 // MAIN FUNCTION
 
@@ -4200,8 +4578,45 @@ function showSchedule(section) {
 	});
 }
 
+function showProfessors(course) {
+	document.getElementById('homePage').style.display = 'none';
+	document.getElementById('dropdown').style.display = 'none';
+	document.getElementById('professorPage').style.display = 'block';
+
+	const prof_data = course.trim();
+
+	const prof_container = document.getElementById('professorContainer');
+	const subjectName = document.querySelector('.subject-name');
+
+	prof_container.innerHTML = '';
+
+	professors[prof_data].profs.forEach((prof) => {
+		subjectName.innerHTML = course;
+		prof_container.innerHTML += `
+		<div class="profgrid-box">
+			<div class="prof-row">
+				<div class="vr"></div>
+				<p>${prof.code}</p>
+				<div class="vr"></div>
+				<p>${prof.professor}</p>
+				<div class="vr"></div>
+				<p>${prof.section}</p>
+				<div class="vr"></div>
+				<button id="contact-btn">
+				<a href="mailto:example@email.com" target="_blank" rel="noopener noreferrer">
+					<img src="/Professor_Finder/assets/images/icons/white-message icon4.svg" />
+					Send a message
+				</a>
+				</button>
+			</div>
+		</div>
+		`;
+	});
+}
+
 function goBack() {
 	document.getElementById('homePage').style.display = 'grid';
 	document.getElementById('dropdown').style.display = 'flex';
 	document.getElementById('schedulePage').style.display = 'none';
+	document.getElementById('professorPage').style.display = 'none';
 }
