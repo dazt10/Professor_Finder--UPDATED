@@ -1,3 +1,21 @@
+// YEAR LEVEL DROPDOWN
+let firstYear = document.getElementById('1st-year');
+let secondYear = document.getElementById('2nd-year');
+let thirdYear = document.getElementById('3rd-year');
+let fourthYear = document.getElementById('4th-year');
+let year_name = document.getElementById('year-change');
+
+// YEAR AND SECTION IN TITLE
+let yearLevel = document.querySelectorAll('.yearLevel');
+let year_section1 = document.getElementById('year-title1');
+let year_section2 = document.getElementById('year-title2');
+let year_section3 = document.getElementById('year-title3');
+let year_section4 = document.getElementById('year-title4');
+let year_section5 = document.getElementById('year-title5');
+let year_section6 = document.getElementById('year-title6');
+let year_section7 = document.getElementById('year-title7');
+let year_section8 = document.getElementById('year-title8');
+
 // TOGGLE DROPDOWNW VARIABLES
 let prog_dropdown = document.querySelector('.program-dropdown');
 let year_dropdown = document.querySelector('.year-dropdown');
@@ -56,24 +74,6 @@ bs_ism.addEventListener('click', () => {
 		progName.innerHTML = 'Industrial Security Management';
 	});
 });
-
-// YEAR LEVEL DROPDOWN
-let firstYear = document.getElementById('1st-year');
-let secondYear = document.getElementById('2nd-year');
-let thirdYear = document.getElementById('3rd-year');
-let fourthYear = document.getElementById('4th-year');
-let year_name = document.getElementById('year-change');
-
-// YEAR AND SECTION IN TITLE
-let yearLevel = document.querySelectorAll('.yearLevel');
-let year_section1 = document.getElementById('year-title1');
-let year_section2 = document.getElementById('year-title2');
-let year_section3 = document.getElementById('year-title3');
-let year_section4 = document.getElementById('year-title4');
-let year_section5 = document.getElementById('year-title5');
-let year_section6 = document.getElementById('year-title6');
-let year_section7 = document.getElementById('year-title7');
-let year_section8 = document.getElementById('year-title8');
 
 // YEAR UPDATE
 firstYear.addEventListener('click', () => {
@@ -144,3902 +144,4420 @@ fourthYear.addEventListener('click', () => {
 	year_section8.innerHTML = '4-8';
 });
 
+// ==== CARD UPDATE FOR PROF. FINDER ====
+
+// CARD UPDATE
+function bscrimSub() {
+	program_name.innerHTML = 'Criminology';
+}
+
+function bsismSub() {
+	program_name.innerHTML = 'Industrial Security Management';
+}
+
+function first_Year() {
+	year_name.innerHTML = 'First Year';
+
+	yearLevel.forEach((level) => {
+		level.innerHTML = '1st Year';
+	});
+}
+function second_Year() {
+	year_name.innerHTML = 'Second Year';
+
+	yearLevel.forEach((level) => {
+		level.innerHTML = '2nd Year';
+	});
+}
+function third_Year() {
+	year_name.innerHTML = 'Third Year';
+
+	yearLevel.forEach((level) => {
+		level.innerHTML = '3rd Year';
+	});
+}
+function fourth_Year() {
+	year_name.innerHTML = 'Fourth Year';
+
+	yearLevel.forEach((level) => {
+		level.innerHTML = '4th Year';
+	});
+}
 
 // =====SCHEDULE PAGE FUNCTION=====
 
 // Schedules
 
 const schedules = {
-
 	// === BSCrim ===
 	// 1ST YEARS
 
-	"BSCrim 1-1": {
+	'BSCrim 1-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 1-2": {
+	'BSCrim 1-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 1-3": {
+	'BSCrim 1-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 1-4": {
+	'BSCrim 1-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 1-5": {
+	'BSCrim 1-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 1-6": {
+	'BSCrim 1-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 1-7": {
+	'BSCrim 1-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 1-8": {
+	'BSCrim 1-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
 	// 2ND YEARS
-	"BSCrim 2-1": {
+	'BSCrim 2-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 2-2": {
+	'BSCrim 2-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 2-3": {
+	'BSCrim 2-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 2-4": {
+	'BSCrim 2-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 2-5": {
+	'BSCrim 2-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 2-6": {
+	'BSCrim 2-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 2-7": {
+	'BSCrim 2-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 2-8": {
+	'BSCrim 2-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
 	// 3RD YEARS
-	"BSCrim 3-1": {
+	'BSCrim 3-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 3-2": {
+	'BSCrim 3-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 3-3": {
+	'BSCrim 3-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 3-4": {
+	'BSCrim 3-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 3-5": {
+	'BSCrim 3-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 3-6": {
+	'BSCrim 3-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 3-7": {
+	'BSCrim 3-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 3-8": {
+	'BSCrim 3-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
 	// 4TH YEARS
-	"BSCrim 4-1": {
+	'BSCrim 4-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 4-2": {
+	'BSCrim 4-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 4-3": {
+	'BSCrim 4-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 4-4": {
+	'BSCrim 4-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 4-5": {
+	'BSCrim 4-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 4-6": {
+	'BSCrim 4-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 4-7": {
+	'BSCrim 4-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSCrim 4-8": {
+	'BSCrim 4-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-// === BSISM ===
-// 1ST YEARS
+	// === BSISM ===
+	// 1ST YEARS
 
-	"BSISM 1-1": {
+	'BSISM 1-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 1-2": {
+	'BSISM 1-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 1-3": {
+	'BSISM 1-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 1-4": {
+	'BSISM 1-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 1-5": {
+	'BSISM 1-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 1-6": {
+	'BSISM 1-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 1-7": {
+	'BSISM 1-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 1-8": {
+	'BSISM 1-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-// 2ND YEARS
-	"BSISM 2-1": {
+	// 2ND YEARS
+	'BSISM 2-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 2-2": {
+	'BSISM 2-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 2-3": {
+	'BSISM 2-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 2-4": {
+	'BSISM 2-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 2-5": {
+	'BSISM 2-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 2-6": {
+	'BSISM 2-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 2-7": {
+	'BSISM 2-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 2-8": {
+	'BSISM 2-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-// 3RD YEARS
-	"BSISM 3-1": {
+	// 3RD YEARS
+	'BSISM 3-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 3-2": {
+	'BSISM 3-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 3-3": {
+	'BSISM 3-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 3-4": {
+	'BSISM 3-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 3-5": {
+	'BSISM 3-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 3-6": {
+	'BSISM 3-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 3-7": {
+	'BSISM 3-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 3-8": {
+	'BSISM 3-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-// 4TH YEARS
-	"BSISM 4-1": {
+	// 4TH YEARS
+	'BSISM 4-1': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 4-2": {
+	'BSISM 4-2': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 4-3": {
+	'BSISM 4-3': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 4-4": {
+	'BSISM 4-4': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 4-5": {
+	'BSISM 4-5': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 4-6": {
+	'BSISM 4-6': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 4-7": {
+	'BSISM 4-7': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
 	},
 
-	"BSISM 4-8": {
+	'BSISM 4-8': {
 		subjects: [
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
 
 			{
-				code: "0000000000",
-				course: "Course title",
-				schedule: "Unknown",
-				room: "Unknown",
+				code: '0000000000',
+				course: 'Course title',
+				schedule: 'Unknown',
+				room: 'Unknown',
 			},
-		]
+		],
+	},
+};
+
+// ===== PROFESSOR FINDER DATABASE ====
+
+const professors = {
+	'GNED 01': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
 	},
 
+	'GNED 02': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 03': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 04': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 05': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'GNED 06': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	FITT: {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'NSTP 1': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+
+	'CVSU 101': {
+		profs: [
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+
+			{
+				code: '0000000000',
+				professor: "Professor's Name",
+				section: 'BSCS 1-6',
+			},
+		],
+	},
+};
+
+const page = document.body.dataset.page;
+
+if (document.body.dataset.page === 'dashboard') {
+	const bookButtons = document.querySelectorAll('.book');
+
+	bookButtons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const card = button.closest('.section-box');
+			const program = card.querySelector('.prog-title').textContent;
+			const year = card.querySelector('.year-title').textContent;
+
+			const section = `${program} ${year}`;
+			showSchedule(section);
+		});
+	});
 }
 
-// Book Button
+if (document.body.dataset.page === 'prof') {
+	const bookButtons = document.querySelectorAll('.book');
 
-const bookButtons = document.querySelectorAll(".book");
-
-bookButtons.forEach(button => {
-	
-	button.addEventListener("click", () => {
-		const card = button.closest(".section-box");
-		const program = card.querySelector(".prog-title").textContent;
-		const year = card.querySelector(".year-title").textContent;
-
-		const section = `${program} ${year}`;
-
-		showSchedule(section);
-	})
-})
+	bookButtons.forEach((button) => {
+		button.addEventListener('click', () => {
+			const card = button.closest('.section-box');
+			const course = card.querySelector('.subjectName').textContent;
+			showProfessors(course);
+		});
+	});
+}
 
 // MAIN FUNCTION
 
 function showSchedule(section) {
-
-	document.getElementById("homePage").style.display = "none";
-	document.getElementById("dropdown").style.display = "none";
-	document.getElementById("schedulePage").style.display = "block";
-	
+	document.getElementById('homePage').style.display = 'none';
+	document.getElementById('dropdown').style.display = 'none';
+	document.getElementById('schedulePage').style.display = 'block';
 
 	const data = schedules[section].subjects;
 
-	const container = document.getElementById("scheduleContainer");
-	const subjectName = document.querySelector(".subject-name");
+	const container = document.getElementById('scheduleContainer');
+	const subjectName = document.querySelector('.subject-name');
 
-	container.innerHTML = "";
+	container.innerHTML = '';
 
-
-	data.forEach(subjects => {
+	data.forEach((subjects) => {
 		subjectName.innerHTML = section;
 		container.innerHTML += `
 		<div class="grid-box">
@@ -4061,9 +4579,45 @@ function showSchedule(section) {
 	});
 }
 
-function goBack() {
+function showProfessors(course) {
+	document.getElementById('homePage').style.display = 'none';
+	document.getElementById('dropdown').style.display = 'none';
+	document.getElementById('professorPage').style.display = 'block';
 
-	document.getElementById("homePage").style.display = "grid";
-	document.getElementById("dropdown").style.display = "flex";
-	document.getElementById("schedulePage").style.display = "none";
+	const prof_data = course.trim();
+
+	const prof_container = document.getElementById('professorContainer');
+	const subjectName = document.querySelector('.subject-name');
+
+	prof_container.innerHTML = '';
+
+	professors[prof_data].profs.forEach((prof) => {
+		subjectName.innerHTML = course;
+		prof_container.innerHTML += `
+		<div class="profgrid-box">
+			<div class="prof-row">
+				<div class="vr"></div>
+				<p>${prof.code}</p>
+				<div class="vr"></div>
+				<p>${prof.professor}</p>
+				<div class="vr"></div>
+				<p>${prof.section}</p>
+				<div class="vr"></div>
+				<button id="contact-btn">
+				<a href="mailto:example@email.com" target="_blank" rel="noopener noreferrer">
+					<img src="/Professor_Finder/assets/images/icons/white-message icon4.svg" />
+					Send a message
+				</a>
+				</button>
+			</div>
+		</div>
+		`;
+	});
+}
+
+function goBack() {
+	document.getElementById('homePage').style.display = 'grid';
+	document.getElementById('dropdown').style.display = 'flex';
+	document.getElementById('schedulePage').style.display = 'none';
+	document.getElementById('professorPage').style.display = 'none';
 }
