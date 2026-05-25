@@ -23,14 +23,9 @@
 				<div class="logo-title">
 					<div class="logo">
 						<img
-							src="/Professor_Finder/assets/images/logo_with_name2.png"
+							src="/Professor_Finder/assets/images/logo_with_name3.png"
 							alt="Cvsu Logo"
 						/>
-					</div>
-
-					<div class="title">
-						<h1>CvSU-MAIN</h1>
-						<h2>PROFESSOR FINDER</h2>
 					</div>
 				</div>
 
@@ -416,21 +411,35 @@
 			<!-- nav-box -->
 
 			<div class="main-page">
-				<div class="dropdown">
+				<div class="dropdown" id="dropdown">
 					<div class="program-dropdown">
 						<button class="program-btn" id="program-change">
 							English Language Studies
 						</button>
 						<ul class="program-list">
-							<li class="top-program" onclick="baelsSub()">
+							<li
+								id="eng-studies"
+								class="top-program"
+								onclick="baelsSub()"
+							>
 								English Language Studies
 							</li>
-							<li onclick="bajSub()">Journalism</li>
-							<li onclick="bapsSub()">Political Science</li>
-							<li onclick="bsamSub()">Applied Mathematics</li>
-							<li onclick="bsbioSub()">Biology</li>
-							<li onclick="bspsychSub()">Psychology</li>
-							<li class="bottom-program" onclick="bsswSub()">
+							<li id="journ" onclick="bajSub()">Journalism</li>
+							<li id="pol-sci" onclick="bapsSub()">
+								Political Science
+							</li>
+							<li id="app-math" onclick="bsamSub()">
+								Applied Mathematics
+							</li>
+							<li id="bio" onclick="bsbioSub()">Biology</li>
+							<li id="psych" onclick="bspsychSub()">
+								Psychology
+							</li>
+							<li
+								id="soc-work"
+								class="bottom-program"
+								onclick="bsswSub()"
+							>
 								Social Work
 							</li>
 						</ul>
@@ -441,12 +450,24 @@
 							First Year
 						</button>
 						<ul class="year-list">
-							<li class="top-year" onclick="first_Year()">
+							<li
+								id="1st-year"
+								class="top-year"
+								onclick="first_Year()"
+							>
 								First Year
 							</li>
-							<li onclick="second_Year()">Second Year</li>
-							<li onclick="third_Year()">Third Year</li>
-							<li class="bottom-year" onclick="fourth_Year()">
+							<li id="2nd-year" onclick="second_Year()">
+								Second Year
+							</li>
+							<li id="3rd-year" onclick="third_Year()">
+								Third Year
+							</li>
+							<li
+								id="4th-year"
+								class="bottom-year"
+								onclick="fourth_Year()"
+							>
 								Fourth Year
 							</li>
 						</ul>
@@ -454,14 +475,16 @@
 				</div>
 				<!-- dropdown-search -->
 
-				<div class="subj-container">
+				<div class="subj-container" id="homePage">
 					<div class="subj-box1">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title1">Eng Language Subject#1</h1>
+								<h1 id="subj-title1" class="subjectName">
+									GNED 01
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject1">Art Appreciation</p>
 							</div>
 
@@ -498,12 +521,14 @@
 					</div>
 
 					<div class="subj-box2">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title2">Eng Language Subject#2</h1>
+								<h1 id="subj-title2" class="subjectName">
+									GNED 02
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject2">Ethics</p>
 							</div>
 
@@ -540,12 +565,14 @@
 					</div>
 
 					<div class="subj-box3">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title3">Eng Language Subject#3</h1>
+								<h1 id="subj-title3" class="subjectName">
+									GNED 03
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject3">
 									Mathematics in the Modern World
 								</p>
@@ -584,12 +611,14 @@
 					</div>
 
 					<div class="subj-box4">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title4">Eng Language Subject#4</h1>
+								<h1 id="subj-title4" class="subjectName">
+									GNED 04
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject4">Purposive Communication</p>
 							</div>
 
@@ -626,12 +655,14 @@
 					</div>
 
 					<div class="subj-box5">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title5">Eng Language Subject#5</h1>
+								<h1 id="subj-title5" class="subjectName">
+									GNED 05
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject5">
 									Science, Technology, and Society
 								</p>
@@ -670,12 +701,14 @@
 					</div>
 
 					<div class="subj-box6">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title6">Eng Language Subject#6</h1>
+								<h1 id="subj-title6" class="subjectName">
+									GNED 06
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject6">Understanding The Self</p>
 							</div>
 
@@ -712,12 +745,14 @@
 					</div>
 
 					<div class="subj-box7">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title7">Eng Language Subject#7</h1>
+								<h1 id="subj-title7" class="subjectName">
+									FITT
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject7">Movement Enhancement</p>
 							</div>
 
@@ -754,12 +789,14 @@
 					</div>
 
 					<div class="subj-box8">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title8">Eng Language Subject#8</h1>
+								<h1 id="subj-title8" class="subjectName">
+									NSTP 1
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject8">
 									National Service Training Program 1
 								</p>
@@ -798,12 +835,14 @@
 					</div>
 
 					<div class="subj-box9">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title9">Eng Language Subject#9</h1>
+								<h1 id="subj-title9" class="subjectName">
+									CVSU 101
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject9">
 									Institutional Orientation
 								</p>
@@ -843,6 +882,78 @@
 					<!-- subj-box -->
 				</div>
 				<!-- subj-container -->
+
+				<!-- SCHEDULE PAGE -->
+				<div id="schedulePage">
+					<div class="subject-back-box">
+						<div class="program-name">
+							<p>COMPUTER PROGRAMMING 1</p>
+						</div>
+
+						<button id="back-btn" onclick="goBack()">
+							<a href=""
+								><img
+									src="/Professor_Finder/assets/images/icons/back-icon4.svg"
+								/>BACK</a
+							>
+						</button>
+					</div>
+					<div class="title-column">
+						<div class="title-course">
+							<p>COURSE CODE</p>
+						</div>
+
+						<div class="title-prof">
+							<p>COURSE</p>
+						</div>
+
+						<div class="title-section">
+							<p>SCHEDULE</p>
+						</div>
+
+						<div class="title-contact">
+							<p>BUILDING/ROOM</p>
+						</div>
+					</div>
+					<div id="scheduleContainer"></div>
+				</div>
+				<!-- schedule page -->
+
+				<!-- PROFESSOR PAGE -->
+				<div id="professorPage">
+					<div class="subject-back-box">
+						<div class="subject-name">
+							<p>YESSS!</p>
+						</div>
+
+						<button id="back-btn" onclick="goBack()">
+							<a href=""
+								><img
+									src="/Professor_Finder/assets/images/icons/back-icon4.svg"
+								/>BACK</a
+							>
+						</button>
+					</div>
+					<div class="title-column">
+						<div class="title-course">
+							<p>COURSE CODE</p>
+						</div>
+
+						<div class="title-prof">
+							<p>COURSE</p>
+						</div>
+
+						<div class="title-section">
+							<p>SCHEDULE</p>
+						</div>
+
+						<div class="title-contact">
+							<p>BUILDING/ROOM</p>
+						</div>
+					</div>
+					<div id="professorContainer"></div>
+				</div>
+				<!-- professor's page -->
 			</div>
 			<!-- main-page -->
 		</div>
