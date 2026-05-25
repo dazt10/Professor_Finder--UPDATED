@@ -3620,7 +3620,7 @@ function showSchedule(section) {
 	const data = schedules[section].subjects;
 
 	const container = document.getElementById('scheduleContainer');
-	const sectionName = document.querySelector('.program-name');
+	const sectionName = document.querySelector('.subject-name');
 
 	container.innerHTML = '';
 
