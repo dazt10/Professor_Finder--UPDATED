@@ -23,7 +23,7 @@
 				<div class="logo-title">
 					<div class="logo">
 						<img
-							src="/Professor_Finder/assets/images/logo_with_name2.png"
+							src="/Professor_Finder/assets/images/logo_with_name3.png"
 							alt="Cvsu Logo"
 						/>
 					</div>
@@ -411,20 +411,34 @@
 			<!-- nav-box -->
 
 			<div class="main-page">
-				<div class="dropdown">
+				<div class="dropdown" id="dropdown">
 					<div class="program-dropdown">
 						<button class="program-btn" id="program-change">
 							Accountancy
 						</button>
 						<ul class="program-list">
-							<li class="top-program" onclick="accountancySub()">
+							<li
+								id="accountancy"
+								class="top-program"
+								onclick="accountancySub()"
+							>
 								Accountancy
 							</li>
-							<li onclick="bsbmSub()">Business Management</li>
-							<li onclick="bsdmSub()">Development Management</li>
-							<li onclick="bseSub()">Economics</li>
-							<li onclick="bsisSub()">International Studies</li>
-							<li class="bottom-program" onclick="bsoaSub()">
+							<li id="bsm" onclick="bsbmSub()">
+								Business Management
+							</li>
+							<li id="dvm" onclick="bsdmSub()">
+								Development Management
+							</li>
+							<li id="econ" onclick="bseSub()">Economics</li>
+							<li id="is" onclick="bsisSub()">
+								International Studies
+							</li>
+							<li
+								id="oa"
+								class="bottom-program"
+								onclick="bsoaSub()"
+							>
 								Office Administration
 							</li>
 						</ul>
@@ -435,12 +449,24 @@
 							First Year
 						</button>
 						<ul class="year-list">
-							<li class="top-year" onclick="first_Year()">
+							<li
+								id="1st-year"
+								class="top-year"
+								onclick="first_Year()"
+							>
 								First Year
 							</li>
-							<li onclick="second_Year()">Second Year</li>
-							<li onclick="third_Year()">Third Year</li>
-							<li class="bottom-year" onclick="fourth_Year()">
+							<li id="2nd-year" onclick="second_Year()">
+								Second Year
+							</li>
+							<li id="3rd-year" onclick="third_Year()">
+								Third Year
+							</li>
+							<li
+								id="4th-year"
+								class="bottom-year"
+								onclick="fourth_Year()"
+							>
 								Fourth Year
 							</li>
 						</ul>
@@ -448,14 +474,16 @@
 				</div>
 				<!-- dropdown-search -->
 
-				<div class="subj-container">
+				<div class="subj-container" id="homePage">
 					<div class="subj-box1">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title1">Accountancy Subject#1</h1>
+								<h1 id="subj-title1" class="subjectName">
+									GNED 01
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject1">Art Appreciation</p>
 							</div>
 
@@ -492,12 +520,14 @@
 					</div>
 
 					<div class="subj-box2">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title2">Accountancy Subject#2</h1>
+								<h1 id="subj-title2" class="subjectName">
+									GNED 02
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject2">Ethics</p>
 							</div>
 
@@ -534,12 +564,14 @@
 					</div>
 
 					<div class="subj-box3">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title3">Accountancy Subject#3</h1>
+								<h1 id="subj-title3" class="subjectName">
+									GNED 03
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject3">
 									Mathematics in the Modern World
 								</p>
@@ -578,12 +610,14 @@
 					</div>
 
 					<div class="subj-box4">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title4">Accountancy Subject#4</h1>
+								<h1 id="subj-title4" class="subjectName">
+									GNED 04
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject4">Purposive Communication</p>
 							</div>
 
@@ -620,12 +654,14 @@
 					</div>
 
 					<div class="subj-box5">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title5">Accountancy Subject#5</h1>
+								<h1 id="subj-title5" class="subjectName">
+									GNED 05
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject5">
 									Science, Technology, and Society
 								</p>
@@ -664,12 +700,14 @@
 					</div>
 
 					<div class="subj-box6">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title6">Accountancy Subject#6</h1>
+								<h1 id="subj-title6" class="subjectName">
+									GNED 06
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject6">Understanding The Self</p>
 							</div>
 
@@ -706,12 +744,14 @@
 					</div>
 
 					<div class="subj-box7">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title7">Accountancy Subject#7</h1>
+								<h1 id="subj-title7" class="subjectName">
+									FITT
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject7">Movement Enhancement</p>
 							</div>
 
@@ -748,12 +788,14 @@
 					</div>
 
 					<div class="subj-box8">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title8">Accountancy Subject#8</h1>
+								<h1 id="subj-title8" class="subjectName">
+									NSTP 1
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject8">
 									National Service Training Program 1
 								</p>
@@ -792,12 +834,14 @@
 					</div>
 
 					<div class="subj-box9">
-						<div class="subject-box">
+						<div class="section-box">
 							<div class="subject">
-								<h1 id="subj-title9">Accountancy Subject#9</h1>
+								<h1 id="subj-title9" class="subjectName">
+									CVSU 101
+								</h1>
 							</div>
 
-							<div class="subject-name">
+							<div class="subject_Name">
 								<p id="nameSubject9">
 									Institutional Orientation
 								</p>
@@ -837,6 +881,78 @@
 					<!-- subj-box -->
 				</div>
 				<!-- subj-container -->
+
+				<!-- SCHEDULE PAGE -->
+				<div id="schedulePage">
+					<div class="subject-back-box">
+						<div class="program-name">
+							<p>COMPUTER PROGRAMMING 1</p>
+						</div>
+
+						<button id="back-btn" onclick="goBack()">
+							<a href=""
+								><img
+									src="/Professor_Finder/assets/images/icons/back-icon4.svg"
+								/>BACK</a
+							>
+						</button>
+					</div>
+					<div class="title-column">
+						<div class="title-course">
+							<p>COURSE CODE</p>
+						</div>
+
+						<div class="title-prof">
+							<p>COURSE</p>
+						</div>
+
+						<div class="title-section">
+							<p>SCHEDULE</p>
+						</div>
+
+						<div class="title-contact">
+							<p>BUILDING/ROOM</p>
+						</div>
+					</div>
+					<div id="scheduleContainer"></div>
+				</div>
+				<!-- schedule page -->
+
+				<!-- PROFESSOR PAGE -->
+				<div id="professorPage">
+					<div class="subject-back-box">
+						<div class="subject-name">
+							<p>YESSS!</p>
+						</div>
+
+						<button id="back-btn" onclick="goBack()">
+							<a href=""
+								><img
+									src="/Professor_Finder/assets/images/icons/back-icon4.svg"
+								/>BACK</a
+							>
+						</button>
+					</div>
+					<div class="title-column">
+						<div class="title-course">
+							<p>COURSE CODE</p>
+						</div>
+
+						<div class="title-prof">
+							<p>COURSE</p>
+						</div>
+
+						<div class="title-section">
+							<p>SCHEDULE</p>
+						</div>
+
+						<div class="title-contact">
+							<p>BUILDING/ROOM</p>
+						</div>
+					</div>
+					<div id="professorContainer"></div>
+				</div>
+				<!-- professor's page -->
 			</div>
 			<!-- main-page -->
 		</div>
